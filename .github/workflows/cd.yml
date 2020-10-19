@@ -11,7 +11,7 @@ jobs:
       uses: 'deliverybot/helm@master'
       with:
         release: 'treasury_release'
-        namespace: 'default'
+        namespace: 'kkushal'
         chart: './charts/helm'
         token: '${{ github.token }}'
       env:
